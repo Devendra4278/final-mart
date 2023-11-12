@@ -1,0 +1,806 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+    .container{
+    width:600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 40px;
+    border: solid;
+    width: 100%;
+    margin-top: 50px;
+    
+    
+}
+body{
+    background-color: white;
+}
+#first{
+    background-color: #5ea3ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 40px;
+    border-top-left-radius: 50px;
+   
+}
+#sec{
+    background-color:#ffb400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 40px;
+}
+#three{
+    background-color:#f64444;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    width: 700px;
+    border-top-right-radius: 50px;
+}
+body{
+   
+  
+background-color: black;
+ 
+  
+ 
+}
+.copy-right{
+    font-size: 60px;
+    margin-left: 20px;
+    color: silver;
+}
+#text1{
+  
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+   
+}
+.para1{
+   color: silver;
+}
+.pic1{
+ 
+    height: 600px;
+    margin-left: 0px;
+    margin-top: 0;
+    transition: 0.5s;
+   
+
+}
+.pic1:hover{
+  
+    cursor: pointer;
+  
+    animation: pencilAnimi 1s ease-in-out .5s 1 ;
+}
+.para2{
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-bottom: 0;
+    color: burlywood;
+    text-decoration: underline;
+}
+.para3{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 20px;
+    column-gap: 100px;
+    justify-content: center;
+    
+
+}
+.pic2{
+    width: 300px;
+    transition:  .3s;
+
+}
+.para3{
+    border: solid;
+}
+.first-pic{
+    border: solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.text2{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    color: silver;
+}
+.para4{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.china1{
+    font-size: 50px;
+    margin-left: 50px;
+    color: silver;
+}
+.title2{
+    font-size: 40px;
+    color: blanchedalmond;
+}
+.china2{
+    font-size: 50px;
+    margin-right: 50px;
+    color: silver;
+}
+.border{
+    height: 30px;
+    width: 100%;
+    border:silver solid;
+    margin-top: 50px;
+    border-style: dashed;
+    border-left: hidden;
+    border-right: hidden;
+    border-spacing:inherit;
+    
+}
+.border-content{
+    display: flex;
+    justify-content: space-between;
+ 
+    margin-top: 20px;
+}
+.border1{
+  
+    width: 300px;
+
+}
+.span1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(0, 229, 255);
+}
+.border-para1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    display: flex;
+    justify-content: center;
+    color: silver;
+
+}
+.but1{
+    height: 60px;
+    width: 130px;
+    background-color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: blanchedalmond;
+    color: silver;
+    transform: scale(1);
+    transition-duration: 1s;
+    
+
+}
+.but1:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+.border2{
+    height: 30px;
+    width: 100%;
+    border:silver solid;
+    margin-top: 50px;
+    border-style: dashed;
+    border-left: hidden;
+    border-right: hidden;
+    border-spacing:inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: solid;
+    margin-top: 80px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+    justify-content: space-between;
+}
+.border3{
+    border: solid silver;
+    width: 400px;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+.box-para1{
+   display: flex;
+   align-items: center;
+   font-size: 70px;
+   color: silver;
+}
+.border4{
+    border: solid silver;
+    width: 400px;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}
+.border4-img{
+    width: 400px;
+}
+.dash{
+    color: silver;
+    margin-top: 50px;
+    
+}
+.dash-title{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.dash-but{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 18px;
+    color: silver;
+    background-color: black;
+    border-color: blanchedalmond;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+.dash-but:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+.dash-para{
+    font-size: 70px;
+    color: silver;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+    text-decoration: none;
+    position: relative;
+}
+.dash-para::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 6px;
+    width: 0%;
+    background-color: red;
+}
+.
+.pencil{
+    width: 50px;
+}
+.pic2:hover{
+    transform: translateY(-10px);
+    transition-delay: 0;
+    cursor: pointer;
+}
+.dash2{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2{
+    border: solid;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    border-style: dashed;
+    color:blanchedalmond;
+    border-color: silver;
+    margin-left: 250px;
+    font-size: 30;
+  
+}
+
+.box-para2{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.box-para2:hover{
+    text-decoration:underline silver;
+
+}
+a{
+    margin-top: 20px;
+}
+.final-box{
+    border: solid silver;
+    display: flex;
+    align-items: center;
+    border-style: dashed;
+    margin-top: 50px;
+
+}
+.gmailco{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    color: silver;
+    border: solid;
+    background-color: transparent;
+
+}
+.mail{
+    margin-left: 200px;
+}
+.box-para3{
+    font-size: 30px;
+    margin-left: 50px;
+    color: sienna;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    color: silver;
+    background-color: transparent;
+    height: 80px;
+    align-items: center;
+    border: solid rgb(0, 238, 255);
+}
+
+@media  (min-width:400px) and (max-width:600px){
+    #text1{
+        width:300px;
+        font-size : 20px;
+        margin-left: 0px;
+
+    }
+    .para2{
+        font-size: 60px;
+    }
+    .copy-right{
+        font-size: 50px;
+    }
+    .container{
+        width: 350px;
+        margin-left: 40px;
+    }
+    .dash{
+        width: 425px;
+        overflow: hidden;
+    }
+    .pic1{
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .para3{
+        width: 430px;
+        column-gap: 10px;
+        margin-left: 0;
+    }
+    .first-pic{
+        width: 130px;
+        
+    }
+    .pic2{
+        width: 130px;
+    }
+    .text2{
+        font-size:18px ;
+    }
+    .china1{
+        margin-left: 0;
+        margin-right: 30px;
+        font-size: 28px;
+    }
+    .china2{
+        margin-left: 30px;
+        margin-right:10px;
+        font-size: 28px;
+    }
+    .box{
+        height: 200px;
+        width: 400px;
+        column-gap: 30px;
+        margin-left: 0px;
+    }
+    .box-para1{
+        font-size: 30px;
+    }
+    .border3{
+        width: 200px;
+        margin-left: 0;
+    }
+    .border4{
+        width: 200px;
+    }
+    .dash-para{
+        font-size: 30px;
+    }
+    .box2{
+        width: 150px;
+        margin-left: 10px;
+        font-size: 30px;
+        
+    }
+    .dash2{
+        height: 250px;
+        width: 420px;
+        margin-left: 0px;
+    }
+    .box-para3{
+        font-size: 20px;
+        
+        margin-left: 10px;
+    }
+    .gmailco{
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+        
+        
+    }
+    .mail{
+        margin-left: 30px;
+    }
+    .foot{
+        height: 150px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .dash-title{
+        display: flex;
+        
+    }
+    
+    
+}
+body{
+    background-color: white;
+}
+@media (min-width: 601px) and (max-width : 800px){
+    #text1{
+        width:800px;
+        font-size : 50px;
+        margin-left: 50px;
+
+    }
+    .copy-right{
+        font-size: 60px;
+    }
+    .container{
+        width: 600px;
+        margin-left: 50%;
+    }
+    .pic1{
+        width: 900px;
+        height: 450px;
+        margin-left: 40px;
+    }
+    .para3{
+        width: 700px;
+        column-gap: 30px;
+    }
+    .first-pic{
+        width: 250px;
+    }
+    .pic2{
+        width: 250px;
+    }
+    .text2{
+        font-size:24px ;
+    }
+    .china1{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 40px;
+    }
+    .china2{
+        margin-left: 50px;
+        margin-right:40px;
+        font-size: 40px;
+    }
+    .box{
+        height: 300px;
+        width: 500px;
+        column-gap: 150px;
+        margin-left: 30px;
+    }
+    .box-para1{
+        font-size: 40px;
+    }
+    .border3{
+        width: 300px;
+        margin-left: 100px;
+    }
+    .border4{
+        width: 300px;
+    }
+    .dash-para{
+        font-size: 50px;
+    }
+    .box2{
+        width: 200px;
+        margin-left: 20px;
+        font-size: 35px;
+        
+    }
+    .dash2{
+        height: 300px;
+        width: 600px;
+        margin-left: 20px;
+      
+       
+    }
+    .box-para3{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .gmailco{
+        width: 400px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .mail{
+        margin-left: 100px;
+    }
+    .foot{
+        height: 150px;
+    }
+    
+}
+body{
+ 
+}
+@keyframes pencilAnimi{
+    0%{
+      
+        transform: scale(1.01);
+    }
+    100%{
+      
+        transform: scale(1.01);
+    }
+}
+</style>
+<body>
+    <div class="copy-right">
+        &copy;
+    </div>
+        <div class="container">
+            <div id="first">food</div>
+            <div id="sec">retail</div>
+            <div id="three">community</div>
+        </div>
+      
+        <div id="text1">
+            <p class="para1">
+                <i>
+                    Canal Street Market is a <br>
+                    carefully curated retail market, <br>
+                    food hall & community space <br>
+                    open year-round at 265 Canal <br>
+                    Street.
+                </i>
+              
+            </p>
+            <img class="pic1" src="download.jpeg" alt="market-pic1">
+           
+        </div>
+        
+           
+        <p class="para2">
+            <i>
+                A New Kind <br>
+                Of Market.
+            </i>
+        </p>
+       <div class="para3">
+
+
+        <div class="first-pic">
+
+            <div class="pic2-container">
+                <img class="pic2" src="Chanel Shops In London_ Explore the Iconic Brand's Locations in the City - London Kensington Guide.jpeg" alt="">
+           </div> 
+           <div class="text2">
+            <p>
+                Merging retail, food , art , and <br>
+                culture , Canal Street Market <br>
+                highlights top retail and design <br>
+                concepts , restaurents , and up-and- <br>
+                coming players in the downtown New <br>
+                York City community
+            </p>
+           </div>
+
+        </div>
+        <div class="first-pic">
+
+            <div class="pic2-container">
+                <img class="pic2" src="Shop Like a Pro in a French Supermarket - Falcondale Life.jpeg" alt="">
+           </div> 
+           <div class="text2">
+            <p>
+                Retail MArket (AFRAME Coffee) Hours : <br>
+                Mon - Fri : 8 : 00 AM - 3 : 00 PM <br>
+                Sat & Sun : 9 : 00 AM - 3 : 00 PM <br>
+
+            </p>
+           </div>
+
+        </div>
+
+        <div class="first-pic">
+
+            <div class="pic2-container">
+                <img class="pic2" src="11 Amazing Things to do in Taipei.jpeg" alt="">
+           </div> 
+           <div class="text2">
+            <p>
+                Food Hall Hours : <br>
+                Mon - Sat : 11 : 00 AM - 6 : 00 PM <br>
+                Sun : 11 : 00 AM - 6 : 00 PM <br>
+               
+            </p>
+           </div>
+
+        </div>
+
+       </div>
+
+       <div class="para4">
+            <div class="china1">
+                <i>
+                    構
+                </i>
+               
+            </div>
+            <div class="title2">
+                <h1>
+                    MARKET <br>
+                    EVENTS
+                </h1>
+            </div>
+
+            <div class="china2">
+                <i>
+                    成
+                </i>
+               
+            </div>
+
+       </div>   
+       <div class="border">
+        
+       </div >
+        <div class="border-content">
+         <div class="border1">
+            <span class="span1">02/07</span> <br>
+            <p class="border-para1">
+                New Balance x Paperboy paris by <br>
+                Greenhouse @ Canal Street Market
+            </p>
+         </div>
+         <div class="border1">
+            <span class="span1" >12/11</span> <br>
+            <p class="border-para1">Hack City 12/11</p>
+         </div>
+         <div class="border1">
+            <span class="span1">07/27</span> <br>
+            <p class="border-para1">
+                Taiwane Wave
+            </p>
+         </div>
+       </div>
+       <div class="border2">
+         <button class="but1">
+            See All
+         </button>
+       </div >
+       
+       <div class="box">
+            <div class="border3">
+                <p class="box-para1">
+                    265 Canal St. <br>
+                    India ,IND
+                </p>
+            </div>
+            <div class="border4">
+                <img class="border4-img" src="HER.jpeg" alt="">
+            </div>
+       </div>
+      <div class="dash"> 
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      </div>
+      <div class="dash-title">
+        <p class="dash-para">
+            Interested in becoming a vendor?
+        </p>
+        <button class="dash-but">click here</button>
+      </div>
+      <div class="dash"> 
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      </div>
+      <div  class="dash2">
+
+            <div  class="box2">
+                <img style="width: 50px;" class="pencil" src="gmail.png" alt="">
+                <a class="box-para2" href="">Email us</a>
+            </div>
+                <div class="box2">
+                    <img style="width: 50px;"  class="pencil" src="Logo Fb Vector Design Images, Facebook Icon Fb Icon Fb Logo Facebook Logo, Facebook Icons, Fb Icons, Logo Icons PNG Image For Free Download.jpeg" alt="">
+                    <a class="box-para2" href="">Follow us <br> on facebook</a>
+                </div>
+                <div class="box2">
+                    <img style="width: 50px;"  class="pencil" src="Instagram Clipart Hd PNG, Instagram Logo Social Media Instagram Icon, Instagram Icons, Social Icons, Logo Icons PNG Image For Free Download.jpeg" alt="">
+                    <a class="box-para2" href="">Follow us <br> on  instagram</a>
+                </div>
+                
+          
+      </div>
+      <div class="final-box">
+            <div class="box-para3">
+                <p>
+                    Stay up to date <br>
+                    with our newletter
+                </p>
+            </div>
+            <div class="mail">
+                <input class="gmailco" type="email" placeholder="Email">
+            </div>
+      </div>
+      
+            <footer class="foot">
+                <p style="margin-left: 15px;">
+                    copy-right Canal Street Market 2023 &copy;
+                </p>
+                <p>
+                    <a style="color: white;" href="#">Privacy Policy</a>
+                </p>
+                <p>
+                    <a style="color: white;" href="">Vendor Login</a>
+                </p>
+                <p style="position: absolute; right: 15px;">
+                    site by <span style="text-decoration: line-through;">Zero</span>
+                </p>
+            </footer>
+    
+
+   
+</body>
+</html>
